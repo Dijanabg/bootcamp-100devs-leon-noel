@@ -21,14 +21,25 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+header, footer{
+  height: 50px;
+  border: 5px solid rgb(47, 201, 150);
+  width: 100%;
+  clear: both;
+}
+section{
+  border: 2px solid red;
+  height: 200px;
+  float: left;
+  width: 20%;
+}
+.second{
+  width: 40%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
