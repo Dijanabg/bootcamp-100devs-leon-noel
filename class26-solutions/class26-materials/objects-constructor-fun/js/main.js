@@ -1,14 +1,17 @@
 //Create a constructor with 4 properties and 3 methods
-function MakeCar(carMake, carModel, carColor, numDoors){
+
+//es6 version js
+class MakeCar{
+    constructor(carMake, carModel, carColor, numDoors){
     this.make=carMake
     this.model=carModel
     this.color=carColor
     this.doors=numDoors
-
-    this.beep = function(){
+    }
+    beep(){
         alert('Beepbeep fucker..')
     }
-    this.lock = function(){
+    lock(){
         alert(`Locked ${this.doors} doors!`)
     }
 }
